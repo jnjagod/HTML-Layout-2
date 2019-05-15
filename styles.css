@@ -93,9 +93,22 @@ h1 > div {
 #two {
     width: 95%;
     height: 75vh;
-    background-color: aqua;
+    background-color: rgb(245, 245, 245);
     margin-top: 160px;
     margin-left: 74px;
+}
+
+#two > img {
+    float: left;
+}
+
+.headP {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+
+p {
+    font-size: 18px; 
 }
 
 .rect {

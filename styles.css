@@ -57,7 +57,7 @@ header > div {
     display: inline-flex;
 }
 
-.container {
+.one {
     display: flex;
     background-color: rgb(241, 238, 255);
     height: 100vh;
@@ -113,15 +113,60 @@ p {
 }
 
 .rect {
-    width: 100%;
+    width: 95%;
     height:60vh;
-    background-image: linear-gradient(-141deg, #f681aa 0%, #644aea 100%);
     margin-top: 100px;
+    margin-left: 74px;
 }
 
 #three {
     align-items: center;
     text-align: center;
     padding-top: 100px;
-    background-color: none;
+    background-image: none;
+    margin-left: 3%;
+}
+
+#four {
+    height: 100vh;
+}
+
+#five {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 80vh;
+}
+
+.box {
+    display: inline-block;
+    width: 28%;
+    margin: 25px;
+    height: 60vh;
+}
+
+.box:nth-child(1){
+    background-color: rgb(152, 71, 71);
+}
+
+.box:nth-child(2){
+    background-color: green;
+}
+
+.box:nth-child(3){
+    background-color: purple;
+}
+
+.box:nth-child(4){
+    background-color: red;
+}
+
+.box:nth-child(5){
+    background-color: blue;
+}
+
+#footer {
+    width: auto;
+    height: 150px;
+    background-color: blue;
+
 }
